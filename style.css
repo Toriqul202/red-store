@@ -1,0 +1,77 @@
+body{
+   font-family: 'Roboto Slab', serif;
+   cursor:pointer;
+}
+.first-view{
+    padding-left:5%;
+    padding-right: 5%;
+}
+.first-parent{
+    display: flex;
+}
+
+#second-flex:first-child{
+    width:60%;
+}
+#second-flex:last-child{
+    width: 40%;
+}
+#second-flex nav{
+    width: 100%;
+    text-align:center;
+
+}
+.logo{
+    position: relative;
+}
+.logo img{
+    width: 200px;
+    position:absolute;
+    top:10%;
+    cursor:pointer;  
+}
+#second-flex li{
+    list-style: none;
+    display: inline-block;
+}
+#second-flex a{
+    text-decoration: none;
+    color: red;
+    padding: 10px 10px;
+    font-weight: 700; 
+    text-shadow: 3px 2px #646464; 
+
+}
+.second-parent{
+    display: flex;
+}
+#body{
+    width:50%;
+    padding-top: 10%;
+}
+#body img{
+    width: 100%;
+}
+#body:first-child{
+    padding-top:20% ;
+}
+#body p{
+    width: 80%;
+    text-align: justify;
+    line-height: 25px;
+}
+#body h1{
+    font-size: 40px;
+    color:red;
+}
+#body a{
+    background-image: linear-gradient(red,tomato);
+    padding: 10px 40px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 5%;
+    font-weight: 700;
+    border-radius: 5px;
+    
+}
